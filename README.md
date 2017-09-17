@@ -7,19 +7,19 @@ One thing seems to come up in articles/posts about why developers choose Vue ove
 
 Add the `react-slotted` package to your project.
 
-```
+```bash
 yarn add react-slotted
 ```
 
 or with npm:
 
-```
+```bash
 npm install --save react-slotted
 ```
 
 ## Slot Component
 
-```
+```js
 import React from 'react';
 import * as ReactDOM from 'react-dom';
 import { Slot } from 'react-slotted';
@@ -52,7 +52,7 @@ ReactDOM.render(
 
 ## withSlots Component
 
-```
+```js
 import React from 'react';
 import * as ReactDOM from 'react-dom';
 import { withSlots } from 'react-slotted';
@@ -97,7 +97,7 @@ ReactDOM.render(
 
 To achieve similar functionality you can simply do the following.
 
-```
+```js
 import React from 'react';
 import * as ReactDOM from 'react-dom';
 
